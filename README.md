@@ -18,3 +18,6 @@ The output list of converted GSE id are stored as geo_rnaseq.tsv under geo_impor
 ENA ids that do not have meta-data in GEO are recorded in NotInGEO_list.txt that has ENA study id and associated organism name which may be useful for curators to prioritise for ENA import.
 
 The GSExx ids (geo_rnaseq.tsv) is further filtered to remove GSE ids exist in atlas_eligibility table in atlasprd3 database to make the latest geo accessions list latest_geo_accessions.txt ready for GEO import.
+
+All perl modules associated are in
+https://github.com/suhaibMo/GEOImport/tree/master/perl_modules
